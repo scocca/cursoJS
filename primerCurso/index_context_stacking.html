@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+            background: teal;
+        }
+        .one{
+            z-index: 5;
+        }
+        .two{   
+            z-index: 4;
+        }
+        .red{
+            z-index: 5;
+            width: 200px;
+            height: 200px;
+            background: orangered;
+        }
+        .blue{
+            z-index: 4;
+            width: 200px;
+            height: 200px;
+            background: blueviolet;
+        }
+        .yellow{
+            z-index: 6;
+            width: 200px;
+            height: 200px;
+            background: yellow;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="one">Hola Mundo</div>
+    <div class="two">esto es html5</div>
+
+    <section>
+        <div class="red">Red</div>
+        <div class="blue">Blue
+            <div class="yellow">Yellow</div>
+        </div>
+    </section>
+</body>
+</html>
